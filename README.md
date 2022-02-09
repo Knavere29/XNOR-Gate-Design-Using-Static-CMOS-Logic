@@ -9,8 +9,15 @@ The design is simulated using ngspice 36.
  - [Introduction](#Introduction)
  - [Tools](#Tools)
  - [Circuit Design](#Circuit-Design)
-  - [Equations](#Equations)
- - - 
+ - - [Truth Table](#Truth-Table)
+ - - [Equations](#Equations)
+ - - [Circuit Design in eSim Tool](#Circuit-Design-in-eSim-Tool)
+ - - [Spice File](#Spice-File)
+ - - [Waveform](#Waveform)
+ - [Usage](#Usage)
+ - [Conclusion](#Conclusion)
+ - [References](#References)
+ - [Acknowledgements](#Acknowledgements)
 
 
 ## Introduction
@@ -131,6 +138,6 @@ I'm extremely grateful to
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
  - [SFAL](https://www.sfalcoe.com/) Hackathon Team, Karnataka.
 
-## Authors
+## Author
 
 - [Nagaraj V Reddy](https://github.com/Knavere29), Student at Dayananda Sagar College Of Engineering, ECE Department.
