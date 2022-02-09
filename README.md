@@ -42,4 +42,5 @@ This equation was used to design the circuit.
 
 ### Circuit Design in eSim Tool
 
-<img>
+<img src='images/Circuit.jpeg'>
+
