@@ -51,7 +51,7 @@ This equation was used to design the circuit.
 .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
 * PUN Circuit
-xM1  Net-_M1-Pad1_ A vdd vdd [sky130_fd_pr__pfet_01v8] W=2.5 L=0.5 M=1
+xM1  Net-_M1-Pad1_ A vdd vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
 xM2  Y B Net-_M1-Pad1_ vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
 xM3  Net-_M3-Pad1_ Abar vdd vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
 xM4  Y Bbar Net-_M3-Pad1_ vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
@@ -80,3 +80,11 @@ plot v(A)+20 v(B)+15 v(Abar)+10 v(Bbar)+5 v(Y)+1
 
 .end
 ```
+
+The default nmos and pmos cell in eSim are replaced by sky130_fd_pr__nfet_1v8 and sky130_fd_pr__pfet_1v8 respectively. Pulse inputs are given to A, B, Abar and Bbar ports.
+The simulated waveform using ngspice 36 is shown below.
+
+### Waveform
+
+<img src='images/waveform.png'>
+
