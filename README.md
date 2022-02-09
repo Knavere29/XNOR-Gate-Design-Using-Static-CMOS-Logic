@@ -62,7 +62,7 @@ xM7  Net-_M5-Pad3_ Abar GND GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
 xM6  Y B Net-_M5-Pad3_ GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
 xM8  Net-_M5-Pad3_ Bbar GND GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
 
-* Biasing		
+* Power and signals		
 v1  A GND pulse(0 1.8 0s 0s 0s 4us 8us)	
 v2  B GND pulse(0 1.8 0s 0s 0s 2us 4us)			
 v3  Abar GND pulse(1.8 0 0s 0s 0s 4us 8us)			
@@ -89,3 +89,11 @@ The default nmos and pmos cell in eSim are replaced by sky130_fd_pr__nfet_1v8 an
 
 The port A and Abar pair makes one input, B and Bbar pair makes another input. The levels of the signals are shifted in spice circuit netlist for display of waves from all the ports on a single plot. All the input cases are simulated. 
 
+## Conclusion 
+
+The static CMOS logic XNOR gate was designed using eSim tool. The nfet and pfet cells of SkyWater SKY130 PDK was used in the circuit netlist. Finally, the netlist was simulated using ngspice 36 tool which generated waveform. The waveform was inspected with respect to the truth table and successfully verified.
+
+## Acknowledgements
+
+- [Kunal Ghosh](https://github.com/kunalg123)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
