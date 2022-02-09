@@ -116,3 +116,7 @@ I'm extremely grateful to
 
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
  - [SFAL](https://www.sfalcoe.com/) Hackathon Team, Karnataka
+
+## Authors
+
+- [knavere29](https://github.com/Knavere29)
