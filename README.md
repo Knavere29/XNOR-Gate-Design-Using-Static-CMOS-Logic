@@ -14,6 +14,16 @@ The design is simulated using ngspice 36.
 ## Introduction
 
 XNOR gate is an important logic gate in digital electronics. It is used in error detection circuit as even or odd parity checker and encoding operation in digital communication.  It is also used for bit manipulations in ALU. The static CMOS logic comprises of pull-up network (PUN) and pull-down network (PDN) are used to design any digital logic circuit in CMOS. This project presents the design of XNOR gate using static CMOS logic.
+
+
+## Tools
+
+**eSim:** It is a free/libre and open source EDA tool for circuit design, simulation, analysis and PCB design. 
+
+**ngspice 36:** It is an open source spice simulator for electric and electronic circuits.
+
+**SkyWater SKY 130 PDK:** It is an open source PDK for 130nm nodes.
+
 ## Circuit Design
 
 Exclusive-NOR gate (XNOR) output will be high when, even number of its inputs are high or all the inputs are low, else output will be low for other cases. The truth table for two input XNOR gate is given below.
