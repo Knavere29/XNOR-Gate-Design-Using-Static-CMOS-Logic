@@ -6,9 +6,9 @@ The design is simulated using ngspice 36.
 
 ## Contents
 
- - [Introduction](https://github.com/Knavere29/XNOR-Gate-Design-Using-Static-CMOS-Logic-README-#Introduction)
- - [Literature Review](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Introduction](#Introduction)
+ - [Tools](#Tools)
+ - [Circuit Design](#Circuit-Design)
 
 
 ## Introduction
