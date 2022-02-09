@@ -6,7 +6,7 @@ The design is simulated using ngspice 36.
 
 ## Contents
 
- - [Introduction](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Introduction](https://github.com/Knavere29/XNOR-Gate-Design-Using-Static-CMOS-Logic-README-#Introduction)
  - [Literature Review](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
@@ -98,6 +98,18 @@ The default nmos and pmos cell in eSim are replaced by sky130_fd_pr__nfet_1v8 an
 <img src='images/Waveform.png'>
 
 The port A and Abar pair makes one input, B and Bbar pair makes another input. The levels of the signals are shifted in spice circuit netlist for display of waves from all the ports on a single plot. All the input cases are simulated. 
+
+## Usage
+
+- Download and install the tools [esim](https://esim.fossee.in/download) and [ngspice 36](http://ngspice.sourceforge.net/download.html).
+
+- Download the [SkyWater SKY130 PDK](https://static.fossee.in/esim/installation-files/sky130_fd_pr.zip) and unzip it.
+
+- Download the Xnor folder from [here.](https://github.com/Knavere29/XNOR-Gate-Design-Using-Static-CMOS-Logic)
+
+- Move the unziped PDK folder to your Xnor project folder.
+
+- For waveform generation run the Xnor.cir file in ngspice 36.
 
 ## Conclusion 
 
