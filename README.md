@@ -119,4 +119,4 @@ I'm extremely grateful to
 
 ## Authors
 
-- [Nagaraj V Reddy](https://github.com/Knavere29), VLSI Enthusiast.
+- [Nagaraj V Reddy](https://github.com/Knavere29), Student at Dayananda Sagar College Of Engineering, ECE Department.
