@@ -1,7 +1,7 @@
 # XNOR Gate Design Using Static CMOS Logic
 
 The aim of this project was to design static CMOS xnor logic gate using  eSim and SkyWater SKY130 PDK.
-The design is simulated using ngspice 36.
+The design was simulated using ngspice 36.
 
 
 ## Contents
