@@ -9,7 +9,7 @@ The design is simulated using ngspice 36.
  - [Introduction](#Introduction)
  - [Tools](#Tools)
  - [Circuit Design](#Circuit-Design)
- - - [Equations](#Equations)
+  - [Equations](#Equations)
  - - 
 
 
