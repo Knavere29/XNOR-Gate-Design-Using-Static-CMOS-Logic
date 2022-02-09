@@ -93,9 +93,15 @@ The port A and Abar pair makes one input, B and Bbar pair makes another input. T
 
 The static CMOS logic XNOR gate was designed using eSim tool. The nfet and pfet cells of SkyWater SKY130 PDK was used in the circuit netlist. Finally, the netlist was simulated using ngspice 36 tool which generated waveform. The waveform was inspected with respect to the truth table and successfully verified.
 
+
+## References
+
+- [Aditi Joshi, Chanchal Jain, Pooja Choudhary, Chirag Arora and Krishan Rapswal, “ A Comparative Performance Analysis of Various CMOS Design Techniques for XOR and XNOR Circuits”, International Journal for Research in Applied Science & Engineering Technology (IJRASET), ISSN: 2321-9653, Volume 5 Issue IV, April 2017.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.691.1319&rep=rep1&type=pdf) 
+- [Kunal Ghosh, VSD - Circuit Design & SPICE Simulations - Part 1](https://www.udemy.com/course/vlsi-academy-circuit-design/)
+
 ## Acknowledgements
 
 I'm extremely grateful to
 
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
- - [SFAL](https://www.sfalcoe.com/) Team, Karnataka
+ - [SFAL](https://www.sfalcoe.com/) Hackathon Team, Karnataka
