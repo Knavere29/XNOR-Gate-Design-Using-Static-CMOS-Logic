@@ -115,8 +115,8 @@ The static CMOS logic XNOR gate was designed using eSim tool. The nfet and pfet 
 I'm extremely grateful to
 
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
- - [SFAL](https://www.sfalcoe.com/) Hackathon Team, Karnataka
+ - [SFAL](https://www.sfalcoe.com/) Hackathon Team, Karnataka.
 
 ## Authors
 
-- [knavere29](https://github.com/Knavere29)
+- [Nagaraj V Reddy](https://github.com/Knavere29), VLSI Enthusiast.
