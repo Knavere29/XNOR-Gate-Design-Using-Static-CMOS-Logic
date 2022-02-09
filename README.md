@@ -97,6 +97,7 @@ The static CMOS logic XNOR gate was designed using eSim tool. The nfet and pfet 
 ## References
 
 - [Aditi Joshi, Chanchal Jain, Pooja Choudhary, Chirag Arora and Krishan Rapswal, “ A Comparative Performance Analysis of Various CMOS Design Techniques for XOR and XNOR Circuits”, International Journal for Research in Applied Science & Engineering Technology (IJRASET), ISSN: 2321-9653, Volume 5 Issue IV, April 2017.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.691.1319&rep=rep1&type=pdf) 
+- [Adel S. Sedra and Kenneth C. Smith, "Microelectronic Circuits", Oxford University Press, Part III, Ch-Digital Intergraded Circuits, Page 1086-1156](https://www.amazon.in/Microelectronic-Circuits-Electrical-Computer-Engineering/dp/0199339139)
 - [Kunal Ghosh, VSD - Circuit Design & SPICE Simulations - Part 1](https://www.udemy.com/course/vlsi-academy-circuit-design/)
 
 ## Acknowledgements
