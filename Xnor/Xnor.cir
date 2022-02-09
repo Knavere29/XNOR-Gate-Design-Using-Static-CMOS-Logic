@@ -1,0 +1,32 @@
+* C:\eSimProjects\Xnor\Xnor.cir
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+* PUN Circuit
+xM1  Net-_M1-Pad1_ A vdd vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
+xM2  Y B Net-_M1-Pad1_ vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
+xM3  Net-_M3-Pad1_ Abar vdd vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
+xM4  Y Bbar Net-_M3-Pad1_ vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
+
+* PDN Circuit
+xM5  Y A Net-_M5-Pad3_ GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
+xM7  Net-_M5-Pad3_ Abar GND GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
+xM6  Y B Net-_M5-Pad3_ GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
+xM8  Net-_M5-Pad3_ Bbar GND GND sky130_fd_pr__nfet_01v8 W=1 L=0.5 M=1
+
+* Biasing		
+v1  A GND pulse(0 1.8 0s 0s 0s 4us 8us)	
+v2  B GND pulse(0 1.8 0s 0s 0s 2us 4us)			
+v3  Abar GND pulse(1.8 0 0s 0s 0s 4us 8us)			
+v4  Bbar GND pulse(1.8 0 0s 0s 0s 2us 4us)			
+v5  vdd GND DC 1.8
+
+.tran 0.1us 8us
+
+* Control Statements
+.control
+run
+
+plot v(A)+20 v(B)+15 v(Abar)+10 v(Bbar)+5 v(Y)+1
+.endC
+
+.end
