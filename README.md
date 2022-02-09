@@ -86,5 +86,5 @@ The simulated waveform using ngspice 36 is shown below.
 
 ### Waveform
 
-<img src='images/waveform.png'>
+<img src='images/Waveform.png'>
 
