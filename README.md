@@ -51,7 +51,7 @@ This equation was used to design the circuit.
 .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
 * PUN Circuit
-xM1  Net-_M1-Pad1_ A vdd vdd `sky130_fd_pr__pfet_01v8` W=2.5 L=0.5 M=1
+xM1  Net-_M1-Pad1_ A vdd vdd [sky130_fd_pr__pfet_01v8] W=2.5 L=0.5 M=1
 xM2  Y B Net-_M1-Pad1_ vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
 xM3  Net-_M3-Pad1_ Abar vdd vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
 xM4  Y Bbar Net-_M3-Pad1_ vdd sky130_fd_pr__pfet_01v8 W=2.5 L=0.5 M=1
